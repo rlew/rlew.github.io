@@ -5,5 +5,35 @@
  * @since Dec 2014
  */
 
-header {
+.title {
+  font-size: 4em;
+  font-family: Calibri;
+  float: left; 
+  color: #7e7e7e;
+}
+
+.links {
+  float: right;
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+  line-height: 4em;
+  vertical-align: middle;
+  padding: 0 1em;
+}
+
+nav {
+  clear: both;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.menuItem {
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  color: #7e7e7e;
+  cursor: pointer;
 }
