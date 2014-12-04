@@ -6,42 +6,53 @@
  */
 
 body {
-  color: #7e7e7e;
+color: #7e7e7e;
 }
 
 .title {
-  font-size: 4em;
-  font-family: Calibri;
-  float: left; 
-  padding: .2em
+    font-size: 4em;
+    font-family: Calibri;
+float: left; 
+       -webkit-margin-before: .2em;
+       -webkit-margin-after: .2em;
 }
 
 .links {
-  float: right;
-  display: inline-block;
+float: right;
+height: 6em;
+        vertical-align: middle;
+        line-height: 6em;
 }
 
 .icon {
-  display: inline-block;
-  line-height: 4em;
-  vertical-align: middle;
-  padding: 0 1em;
+display: inline-block;
+         /* line-height: 4em; */
+         /* vertical-align: middle; */
+padding: 0 1em;
 }
 
 nav {
-  clear: both;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+clear: both;
+       border-top: 1px solid #e7e7e7;
+       border-bottom: 1px solid #e7e7e7;
 }
 
 .menuItem {
-  display: inline-block;
-  padding: 1em;
-  text-align: center;
-  cursor: pointer;
+display: inline-block;
+padding: 1em;
+         text-align: center;
+cursor: pointer;
+}
+
+.tabSection {
+border: 1px solid #DAF0F4;
+padding: 0 1em 1em;
+margin: 1.5em;
+        box-shadow: 3px 2px #DAF2F2;
+        border-radius: 3px 3px;
 }
 
 .sectionTitle {
-  font-size: 2em;
-  padding: .5em 0 .25em .5em;
+    font-size: 2em;
 }
+
