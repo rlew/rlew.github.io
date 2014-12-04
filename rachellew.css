@@ -5,11 +5,15 @@
  * @since Dec 2014
  */
 
+body {
+  color: #7e7e7e;
+}
+
 .title {
   font-size: 4em;
   font-family: Calibri;
   float: left; 
-  color: #7e7e7e;
+  padding: .2em
 }
 
 .links {
@@ -34,6 +38,10 @@ nav {
   display: inline-block;
   padding: 1em;
   text-align: center;
-  color: #7e7e7e;
   cursor: pointer;
+}
+
+.sectionTitle {
+  font-size: 2em;
+  padding: .5em 0 .25em .5em;
 }
