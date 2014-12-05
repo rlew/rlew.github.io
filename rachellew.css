@@ -12,7 +12,7 @@ color: #7e7e7e;
 .title {
     font-size: 4em;
     font-family: Calibri;
-float: left; 
+float: left;
        -webkit-margin-before: .2em;
        -webkit-margin-after: .2em;
 }
@@ -39,20 +39,27 @@ clear: both;
 
 .menuItem {
 display: inline-block;
-padding: 1em;
+padding: 1em 1em .7em;
          text-align: center;
 cursor: pointer;
+        border-bottom: .3em solid #FFFFFF;
 }
 
+.menuItem.selected,
+    .menuItem:hover {
+        border-bottom: .3em solid rgba(222, 246, 250, 1);
+    }
+
 .tabSection {
-border: 1px solid #DAF0F4;
+border: 1px solid rgba(222, 246, 250, 0.75);
 padding: 0 1em 1em;
 margin: 1.5em;
-        box-shadow: 3px 2px #DAF2F2;
+        box-shadow: 4px 4px 1px rgba(223, 255, 255, 0.53);
         border-radius: 3px 3px;
 }
 
 .sectionTitle {
     font-size: 2em;
 }
+
 
