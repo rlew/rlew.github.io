@@ -6,82 +6,84 @@
  */
 
 body {
-color: #7e7e7e;
-       font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+    color: #7e7e7e;
+    font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
 .title {
     font-size: 4em;
-float: left;
-       -webkit-margin-before: .2em;
-       -webkit-margin-after: .2em;
-       font-weight: normal;
+    float: left;
+    -webkit-margin-before: .2em;
+    -webkit-margin-after: .2em;
+    font-weight: lighter;
+    color: #b2b2b2;
+    text-shadow: 3px 3px 3px #BAE2E0;
 }
 
 .links {
-float: right;
-height: 6em;
-        vertical-align: middle;
-        line-height: 6em;
+    float: right;
+    height: 6em;
+    vertical-align: middle;
+    line-height: 6em;
 }
 
 .icon {
-display: inline-block;
-         /* line-height: 4em; */
-         /* vertical-align: middle; */
-padding: 0 1em;
+    display: inline-block;
+    padding: 0 1em;
 }
 
 nav {
-clear: both;
-       border-top: 1px solid #e7e7e7;
-       border-bottom: 1px solid #e7e7e7;
+    clear: both;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .menuItem:hover,
-    .menuItem.selected {
-        border-bottom: .3em solid #DAF2F2;
-    }
+.menuItem.selected {
+    border-bottom: .3em solid #DAF2F2;
+}
 
 .menuItem {
-display: inline-block;
-padding: 1em 1em .7em;
-         text-align: center;
-cursor: pointer;
-        border-bottom: .3em solid #FFFFFF;
+    display: inline-block;
+    padding: 1em 1em .7em;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: .3em solid #FFFFFF;
 }
 
 .tabSection {
-border: 1px solid rgba(218, 240, 244, 0.73);
-padding: 0 1em 1em;
-margin: 1.5em;
-        box-shadow: 4px 4px 3px rgba(218, 242, 242, 0.46);
-        border-radius: 3px 3px;
+    border: 1px solid rgba(218, 240, 244, 0.73);
+    padding: 0 1em 1em;
+    margin: 1.5em;
+    box-shadow: 4px 4px 3px rgba(218, 242, 242, 0.46);
+    border-radius: 3px 3px;
 }
 
 .sectionTitle {
     font-size: 2em;
     -webkit-margin-after: 0;
     -webkit-margin-before: 0;
-margin: .5em 0;
+    margin: .5em 0;
+    font-weight: normal;
 }
 
 .subtitle {
     -webkit-margin-after: .0;
     -webkit-margin-before: 0;
-margin: 0 0 .5em;
-float: left;
+    margin: 0 0 .5em;
+    float: left;
 }
 
 .date {
-float: right;
-margin: 0 0 .5em;
+    float: right;
+    margin: 0 0 .5em;
 }
 
 .subDesc {
-clear: both;
+    clear: both;
 }
 
 .sectionContent {
     line-height: 2em;
 }
+
