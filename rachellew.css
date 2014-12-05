@@ -54,9 +54,10 @@ nav {
 .tabSection {
     border: 1px solid rgba(218, 240, 244, 0.73);
     padding: 0 1em 1em;
-    margin: 1.5em;
+    margin: 1.5em auto;
     box-shadow: 4px 4px 3px rgba(218, 242, 242, 0.46);
     border-radius: 3px 3px;
+    max-width: 750px;
 }
 
 .sectionTitle {
@@ -84,6 +85,6 @@ nav {
 }
 
 .sectionContent {
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
