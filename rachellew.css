@@ -18,6 +18,7 @@ body {
     -webkit-margin-after: .2em;
     color: #b2b2b2;
     text-shadow: 3px 3px 3px #BAE2E0;
+    font-weight: lighter;
 }
 
 .links {
@@ -65,6 +66,7 @@ nav {
     -webkit-margin-after: 0;
     -webkit-margin-before: 0;
     margin: .5em 0;
+    font-weight: lighter;
 }
 
 .subtitle {
@@ -72,6 +74,7 @@ nav {
     -webkit-margin-before: 0;
     margin: 0 0 .5em;
     float: left;
+    font-weight: lighter;
 }
 
 .date {
